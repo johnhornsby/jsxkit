@@ -1,0 +1,46 @@
+#pragma mark NSComboBoxDataSource
+-(NSUInteger)	comboBoxCell:(NSComboBoxCell*)cell indexOfItemWithStringValue:(NSString*)string{
+-(NSInteger)	numberOfItemsInComboBoxCell:(NSComboBoxCell*)cell {
+-(id)		comboBoxCell:(NSComboBoxCell*)cell objectValueForItemAtIndex:(NSInteger)index {
+
+#pragma -mark NSOutlineViewDataSource
+/**
+* If data item has children then return number of children
+*/
+-(NSInteger)	outlineView:(NSOutlineView *)outlineView numberOfChildrenOfItem:(id)item {
+
+/**
+* If data item has children then return YES else NO
+*/
+-(BOOL)		outlineView:(NSOutlineView *)outlineView isItemExpandable:(id)item {
+
+/**
+* Return data item for that row
+*/
+-(id)		outlineView:(NSOutlineView *)outlineView child:(NSInteger)index ofItem:(id)item {
+
+/**
+* Return NSString to show in cell
+*/
+-(id)		outlineView:(NSOutlineView *)outlineView objectValueForTableColumn:(NSTableColumn *)tableColumn byItem:(id)item {
+
+/**
+* Receive object value (this should be a NSString from NSComboBoxDataSource) using this value determine any modifications needing to be make to data
+*/ 
+-(void)		outlineView:(NSOutlineView *)outlineView setObjectValue:(id)value forTableColumn:(NSTableColumn *)tableColumn byItem:(id)item {
+
+/**
+* set an NSArray of NSStrings into relevant cell for column and item, these are the options that are then displayed for the comboBox of the cell
+*/
+-(void)		outlineView:(NSOutlineView *)outlineView willDisplayCell:(id)cell forTableColumn:(NSTableColumn *)tableColumn item:(id)item {
+
+#pragma -mark NSOutlineView Delegate Methods
+/**
+* return yes
+*/
+-(BOOL) 	outlineView:(NSOutlineView *)outlineView shouldSelectItem:(id)item {
+
+/**
+* return the data object cell to be used in cell
+*/ 
+-(NSCell *) 	outlineView:(NSOutlineView *)outlineView dataCellForTableColumn:(NSTableColumn *)tableColumn item:(id)item {

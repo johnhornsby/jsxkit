@@ -1,0 +1,396 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4007363D14890F7B006A21A8 /* BuildCategory.m in Sources */ = {isa = PBXBuildFile; fileRef = 4007363C14890F7B006A21A8 /* BuildCategory.m */; };
+		40073641148916BB006A21A8 /* BuildManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 40073640148916BB006A21A8 /* BuildManager.m */; };
+		40447ABE14DB2D4700DBB024 /* TableBottomBarSettings.png in Resources */ = {isa = PBXBuildFile; fileRef = 40447ABD14DB2D4700DBB024 /* TableBottomBarSettings.png */; };
+		406D09F4149CE86200177FB1 /* ProjectViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 406D09F2149CE86200177FB1 /* ProjectViewController.m */; };
+		406D09F5149CE86200177FB1 /* ProjectViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 406D09F3149CE86200177FB1 /* ProjectViewController.xib */; };
+		406D09FA149D2D7800177FB1 /* PreferencesViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 406D09F8149D2D7800177FB1 /* PreferencesViewController.m */; };
+		406D09FB149D2D7800177FB1 /* PreferencesViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 406D09F9149D2D7800177FB1 /* PreferencesViewController.xib */; };
+		40C577491498E5B800C8E9C4 /* BuildFile.m in Sources */ = {isa = PBXBuildFile; fileRef = 40C577481498E5B800C8E9C4 /* BuildFile.m */; };
+		40F33D00149B208600159ED4 /* preferences_icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 40F33CFF149B208600159ED4 /* preferences_icon.png */; };
+		40F33D02149B223B00159ED4 /* folder_icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 40F33D01149B223B00159ED4 /* folder_icon.png */; };
+		E10341F61451920200FA13E7 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E10341F51451920200FA13E7 /* Cocoa.framework */; };
+		E10342001451920200FA13E7 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = E10341FE1451920200FA13E7 /* InfoPlist.strings */; };
+		E10342021451920200FA13E7 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E10342011451920200FA13E7 /* main.m */; };
+		E10342061451920200FA13E7 /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = E10342041451920200FA13E7 /* Credits.rtf */; };
+		E10342091451920200FA13E7 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E10342081451920200FA13E7 /* AppDelegate.m */; };
+		E103420C1451920200FA13E7 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = E103420A1451920200FA13E7 /* MainMenu.xib */; };
+		E13A2241147B9E7D004B7E33 /* OutlineViewItem.m in Sources */ = {isa = PBXBuildFile; fileRef = E13A2240147B9E7D004B7E33 /* OutlineViewItem.m */; };
+		E14A3C1E147A6BAB0096F5EB /* FileDataContainer.m in Sources */ = {isa = PBXBuildFile; fileRef = E14A3C1D147A6BAB0096F5EB /* FileDataContainer.m */; };
+		E1D726E014DADF050042D1E6 /* TableBottomBar.png in Resources */ = {isa = PBXBuildFile; fileRef = E1D726DD14DADF050042D1E6 /* TableBottomBar.png */; };
+		E1D726E114DADF050042D1E6 /* TableBottomBarMinus.png in Resources */ = {isa = PBXBuildFile; fileRef = E1D726DE14DADF050042D1E6 /* TableBottomBarMinus.png */; };
+		E1D726E214DADF050042D1E6 /* TableBottomBarPlus.png in Resources */ = {isa = PBXBuildFile; fileRef = E1D726DF14DADF050042D1E6 /* TableBottomBarPlus.png */; };
+		E1D726E814DAEBE10042D1E6 /* AddJoinedFileViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E1D726E714DAEBE10042D1E6 /* AddJoinedFileViewController.m */; };
+		E1D726EA14DAEBFE0042D1E6 /* AddJoinedFileWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = E1D726E914DAEBFE0042D1E6 /* AddJoinedFileWindow.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		4007363B14890F7B006A21A8 /* BuildCategory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BuildCategory.h; sourceTree = "<group>"; };
+		4007363C14890F7B006A21A8 /* BuildCategory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BuildCategory.m; sourceTree = "<group>"; };
+		4007363F148916BB006A21A8 /* BuildManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BuildManager.h; sourceTree = "<group>"; };
+		40073640148916BB006A21A8 /* BuildManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BuildManager.m; sourceTree = "<group>"; };
+		40447ABD14DB2D4700DBB024 /* TableBottomBarSettings.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = TableBottomBarSettings.png; sourceTree = "<group>"; };
+		406D09F1149CE86200177FB1 /* ProjectViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ProjectViewController.h; sourceTree = "<group>"; };
+		406D09F2149CE86200177FB1 /* ProjectViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ProjectViewController.m; sourceTree = "<group>"; };
+		406D09F3149CE86200177FB1 /* ProjectViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ProjectViewController.xib; sourceTree = "<group>"; };
+		406D09F7149D2D7800177FB1 /* PreferencesViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PreferencesViewController.h; sourceTree = "<group>"; };
+		406D09F8149D2D7800177FB1 /* PreferencesViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PreferencesViewController.m; sourceTree = "<group>"; };
+		406D09F9149D2D7800177FB1 /* PreferencesViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PreferencesViewController.xib; sourceTree = "<group>"; };
+		40C577471498E5B800C8E9C4 /* BuildFile.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BuildFile.h; sourceTree = "<group>"; };
+		40C577481498E5B800C8E9C4 /* BuildFile.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BuildFile.m; sourceTree = "<group>"; };
+		40F33CFF149B208600159ED4 /* preferences_icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = preferences_icon.png; path = resources/preferences_icon.png; sourceTree = "<group>"; };
+		40F33D01149B223B00159ED4 /* folder_icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = folder_icon.png; path = resources/folder_icon.png; sourceTree = "<group>"; };
+		E10341F11451920200FA13E7 /* WebDevWorkflowCompiler.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WebDevWorkflowCompiler.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E10341F51451920200FA13E7 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		E10341F81451920200FA13E7 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		E10341F91451920200FA13E7 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		E10341FA1451920200FA13E7 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		E10341FD1451920200FA13E7 /* WebDevWorkflowCompiler-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "WebDevWorkflowCompiler-Info.plist"; sourceTree = "<group>"; };
+		E10341FF1451920200FA13E7 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		E10342011451920200FA13E7 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		E10342031451920200FA13E7 /* WebDevWorkflowCompiler-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "WebDevWorkflowCompiler-Prefix.pch"; sourceTree = "<group>"; };
+		E10342051451920200FA13E7 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
+		E10342071451920200FA13E7 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		E10342081451920200FA13E7 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		E103420B1451920200FA13E7 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		E13A223F147B9E7D004B7E33 /* OutlineViewItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OutlineViewItem.h; sourceTree = "<group>"; };
+		E13A2240147B9E7D004B7E33 /* OutlineViewItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OutlineViewItem.m; sourceTree = "<group>"; };
+		E14A3C1C147A6BAB0096F5EB /* FileDataContainer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FileDataContainer.h; sourceTree = "<group>"; };
+		E14A3C1D147A6BAB0096F5EB /* FileDataContainer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FileDataContainer.m; sourceTree = "<group>"; };
+		E1D726DD14DADF050042D1E6 /* TableBottomBar.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = TableBottomBar.png; sourceTree = "<group>"; };
+		E1D726DE14DADF050042D1E6 /* TableBottomBarMinus.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = TableBottomBarMinus.png; sourceTree = "<group>"; };
+		E1D726DF14DADF050042D1E6 /* TableBottomBarPlus.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = TableBottomBarPlus.png; sourceTree = "<group>"; };
+		E1D726E614DAEBE10042D1E6 /* AddJoinedFileViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AddJoinedFileViewController.h; sourceTree = "<group>"; };
+		E1D726E714DAEBE10042D1E6 /* AddJoinedFileViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AddJoinedFileViewController.m; sourceTree = "<group>"; };
+		E1D726E914DAEBFE0042D1E6 /* AddJoinedFileWindow.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = AddJoinedFileWindow.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E10341EE1451920100FA13E7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E10341F61451920200FA13E7 /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		40F33CFD149B204200159ED4 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				40F33D01149B223B00159ED4 /* folder_icon.png */,
+				40F33CFF149B208600159ED4 /* preferences_icon.png */,
+			);
+			name = Resources;
+			path = WebDevWorkflowCompiler;
+			sourceTree = "<group>";
+		};
+		E10341E61451920100FA13E7 = {
+			isa = PBXGroup;
+			children = (
+				40F33CFD149B204200159ED4 /* Resources */,
+				E10341FB1451920200FA13E7 /* WebDevWorkflowCompiler */,
+				E10341F41451920200FA13E7 /* Frameworks */,
+				E10341F21451920200FA13E7 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		E10341F21451920200FA13E7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E10341F11451920200FA13E7 /* WebDevWorkflowCompiler.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E10341F41451920200FA13E7 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E10341F51451920200FA13E7 /* Cocoa.framework */,
+				E10341F71451920200FA13E7 /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E10341F71451920200FA13E7 /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E10341F81451920200FA13E7 /* AppKit.framework */,
+				E10341F91451920200FA13E7 /* CoreData.framework */,
+				E10341FA1451920200FA13E7 /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		E10341FB1451920200FA13E7 /* WebDevWorkflowCompiler */ = {
+			isa = PBXGroup;
+			children = (
+				E1D726DC14DADF050042D1E6 /* Graphics */,
+				E10342071451920200FA13E7 /* AppDelegate.h */,
+				E10342081451920200FA13E7 /* AppDelegate.m */,
+				E103420A1451920200FA13E7 /* MainMenu.xib */,
+				E10341FC1451920200FA13E7 /* Supporting Files */,
+				E14A3C1C147A6BAB0096F5EB /* FileDataContainer.h */,
+				E14A3C1D147A6BAB0096F5EB /* FileDataContainer.m */,
+				E13A223F147B9E7D004B7E33 /* OutlineViewItem.h */,
+				E13A2240147B9E7D004B7E33 /* OutlineViewItem.m */,
+				4007363B14890F7B006A21A8 /* BuildCategory.h */,
+				4007363C14890F7B006A21A8 /* BuildCategory.m */,
+				4007363F148916BB006A21A8 /* BuildManager.h */,
+				40073640148916BB006A21A8 /* BuildManager.m */,
+				40C577471498E5B800C8E9C4 /* BuildFile.h */,
+				40C577481498E5B800C8E9C4 /* BuildFile.m */,
+				406D09F1149CE86200177FB1 /* ProjectViewController.h */,
+				406D09F2149CE86200177FB1 /* ProjectViewController.m */,
+				406D09F3149CE86200177FB1 /* ProjectViewController.xib */,
+				406D09F7149D2D7800177FB1 /* PreferencesViewController.h */,
+				406D09F8149D2D7800177FB1 /* PreferencesViewController.m */,
+				406D09F9149D2D7800177FB1 /* PreferencesViewController.xib */,
+				E1D726E614DAEBE10042D1E6 /* AddJoinedFileViewController.h */,
+				E1D726E714DAEBE10042D1E6 /* AddJoinedFileViewController.m */,
+				E1D726E914DAEBFE0042D1E6 /* AddJoinedFileWindow.xib */,
+			);
+			path = WebDevWorkflowCompiler;
+			sourceTree = "<group>";
+		};
+		E10341FC1451920200FA13E7 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				E10341FD1451920200FA13E7 /* WebDevWorkflowCompiler-Info.plist */,
+				E10341FE1451920200FA13E7 /* InfoPlist.strings */,
+				E10342011451920200FA13E7 /* main.m */,
+				E10342031451920200FA13E7 /* WebDevWorkflowCompiler-Prefix.pch */,
+				E10342041451920200FA13E7 /* Credits.rtf */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		E1D726DC14DADF050042D1E6 /* Graphics */ = {
+			isa = PBXGroup;
+			children = (
+				40447ABD14DB2D4700DBB024 /* TableBottomBarSettings.png */,
+				E1D726DD14DADF050042D1E6 /* TableBottomBar.png */,
+				E1D726DE14DADF050042D1E6 /* TableBottomBarMinus.png */,
+				E1D726DF14DADF050042D1E6 /* TableBottomBarPlus.png */,
+			);
+			path = Graphics;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E10341F01451920100FA13E7 /* WebDevWorkflowCompiler */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E103420F1451920200FA13E7 /* Build configuration list for PBXNativeTarget "WebDevWorkflowCompiler" */;
+			buildPhases = (
+				E10341ED1451920100FA13E7 /* Sources */,
+				E10341EE1451920100FA13E7 /* Frameworks */,
+				E10341EF1451920100FA13E7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = WebDevWorkflowCompiler;
+			productName = WebDevWorkflowCompiler;
+			productReference = E10341F11451920200FA13E7 /* WebDevWorkflowCompiler.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E10341E81451920100FA13E7 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+				ORGANIZATIONNAME = "Interactive Labs";
+			};
+			buildConfigurationList = E10341EB1451920100FA13E7 /* Build configuration list for PBXProject "WebDevWorkflowCompiler" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = E10341E61451920100FA13E7;
+			productRefGroup = E10341F21451920200FA13E7 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E10341F01451920100FA13E7 /* WebDevWorkflowCompiler */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E10341EF1451920100FA13E7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E10342001451920200FA13E7 /* InfoPlist.strings in Resources */,
+				E10342061451920200FA13E7 /* Credits.rtf in Resources */,
+				E103420C1451920200FA13E7 /* MainMenu.xib in Resources */,
+				40F33D00149B208600159ED4 /* preferences_icon.png in Resources */,
+				40F33D02149B223B00159ED4 /* folder_icon.png in Resources */,
+				406D09F5149CE86200177FB1 /* ProjectViewController.xib in Resources */,
+				406D09FB149D2D7800177FB1 /* PreferencesViewController.xib in Resources */,
+				E1D726E014DADF050042D1E6 /* TableBottomBar.png in Resources */,
+				E1D726E114DADF050042D1E6 /* TableBottomBarMinus.png in Resources */,
+				E1D726E214DADF050042D1E6 /* TableBottomBarPlus.png in Resources */,
+				E1D726EA14DAEBFE0042D1E6 /* AddJoinedFileWindow.xib in Resources */,
+				40447ABE14DB2D4700DBB024 /* TableBottomBarSettings.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E10341ED1451920100FA13E7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E10342021451920200FA13E7 /* main.m in Sources */,
+				E10342091451920200FA13E7 /* AppDelegate.m in Sources */,
+				E14A3C1E147A6BAB0096F5EB /* FileDataContainer.m in Sources */,
+				E13A2241147B9E7D004B7E33 /* OutlineViewItem.m in Sources */,
+				4007363D14890F7B006A21A8 /* BuildCategory.m in Sources */,
+				40073641148916BB006A21A8 /* BuildManager.m in Sources */,
+				40C577491498E5B800C8E9C4 /* BuildFile.m in Sources */,
+				406D09F4149CE86200177FB1 /* ProjectViewController.m in Sources */,
+				406D09FA149D2D7800177FB1 /* PreferencesViewController.m in Sources */,
+				E1D726E814DAEBE10042D1E6 /* AddJoinedFileViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		E10341FE1451920200FA13E7 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E10341FF1451920200FA13E7 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		E10342041451920200FA13E7 /* Credits.rtf */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E10342051451920200FA13E7 /* en */,
+			);
+			name = Credits.rtf;
+			sourceTree = "<group>";
+		};
+		E103420A1451920200FA13E7 /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E103420B1451920200FA13E7 /* en */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		E103420D1451920200FA13E7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.6;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		E103420E1451920200FA13E7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.6;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		E10342101451920200FA13E7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "WebDevWorkflowCompiler/WebDevWorkflowCompiler-Prefix.pch";
+				INFOPLIST_FILE = "WebDevWorkflowCompiler/WebDevWorkflowCompiler-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		E10342111451920200FA13E7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "WebDevWorkflowCompiler/WebDevWorkflowCompiler-Prefix.pch";
+				INFOPLIST_FILE = "WebDevWorkflowCompiler/WebDevWorkflowCompiler-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E10341EB1451920100FA13E7 /* Build configuration list for PBXProject "WebDevWorkflowCompiler" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E103420D1451920200FA13E7 /* Debug */,
+				E103420E1451920200FA13E7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E103420F1451920200FA13E7 /* Build configuration list for PBXNativeTarget "WebDevWorkflowCompiler" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E10342101451920200FA13E7 /* Debug */,
+				E10342111451920200FA13E7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E10341E81451920100FA13E7 /* Project object */;
+}
